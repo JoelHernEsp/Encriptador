@@ -92,5 +92,4 @@ function copiar() {
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
-    alert("Texto copiado al portapapeles: " + resultado);
 }
